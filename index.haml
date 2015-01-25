@@ -1,0 +1,206 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{charset:"utf-8"}/
+    %meta{content:"IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content:"width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Kramer
+    %link{href:"http://fonts.googleapis.com/css?family=Droid+Sans:400,700", rel:"stylesheet", type:"text/css"}/
+    / Bootstrap
+    %link{href:"css/bootstrap.min.css", rel:"stylesheet"}/
+    %link{href:"style/main.css", rel:"stylesheet"}/
+    %link{href:"style/media.css", rel:"stylesheet"}/
+
+
+  %body
+    %section.welcome-section
+      %img#bg{src:"", alt:""}
+      %header.header
+        .container
+          .navbar-header.navbar-inverse
+            %button.navbar-toggle.collapsed{"data-target" => "#navbar", "data-toggle" => "collapse", type:"button"}
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            .logo.pull-left.col-md-offset-1
+              %a{href:"#"}
+                %img{alt:"Kramer", height:"52", src:"img/logo.png", width:"140"}/
+          #navbar.collapse.navbar-collapse
+            %nav
+              %ul.nav.navbar-nav
+                %li
+                  %a{href:"#"} About
+                %li
+                  %a{href:"#"} Portfolio
+                %li
+                  %a{href:"#"} Team
+                %li
+                  %a{href:"#"} Contact
+      .jumbotron.welcome-content.text-center
+        %h1
+          Welcome To
+          %span
+            Kramerica Industries
+        %p
+          %a.explore.btn.btn-lg{href:"#", role:"button"} Explore
+    %section.about
+      .container
+        %h2 About
+        %article.about-description
+          %p
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+            sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis
+            sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+            odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+        %ul
+          %li.service.col-md-4.text-center
+            .description-wrap
+              %h3 Services
+              %p
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                sollicitudin, lorem quis bibendum auctor,
+          %li.retina.col-md-4.text-center
+            .description-wrap
+              %h3 Retina Display
+              %p
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                sollicitudin, lorem quis bibendum auctor,
+          %li.support.col-md-4.text-center
+            .description-wrap
+              %h3 Full Support
+              %p
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                sollicitudin, lorem quis bibendum auctor,
+    %section.portfolio
+      %h2.portfolio-title Portfolio
+      %ul.portfolio-nav.list-inline.text-center
+        %li.portfolio-nav-list
+          %a{:href => "#"} All
+        %li.portfolio-nav-list.active
+          %a{:href => "#"} Design
+        %li.portfolio-nav-list
+          %a{:href => "#"} Web
+        %li.portfolio-nav-list
+          %a{:href => "#"} Illustration
+        %li.portfolio-nav-list
+          %a{:href => "#"} Motion
+      .container
+        %ul.portfolio-categories.row
+          %li.portfolio-categories-list.col-md-4.col-sm-6.col-xs-12.text-center
+            .portfolio-categories-wrap
+              .portfolio-categories-wrap-item
+                .portfolio-list-hover.text-center
+                  %p.portfolio-project-title Project Title
+                  %a.portfolio-view-project{:href => "#"} View Project
+                %img.img-responsive{:alt => "", :height => "260", :src => "img/portfolio-li1.jpg", :width => "348"}/
+          %li.portfolio-categories-list.col-md-4.col-sm-6.col-xs-12.text-center
+            .portfolio-categories-wrap
+              .portfolio-categories-wrap-item
+                .portfolio-list-hover.text-center
+                  %p.portfolio-project-title Project Title
+                  %a.portfolio-view-project{:href => "#"} View Project
+                %img.img-responsive{:alt => "", :height => "260", :src => "img/portfolio-li2.jpg", :width => "348"}/
+          %li.portfolio-categories-list.col-md-4.col-sm-6.col-xs-12.text-center
+            .portfolio-categories-wrap
+              .portfolio-categories-wrap-item
+                .portfolio-list-hover.text-center
+                  %p.portfolio-project-title Project Title
+                  %a.portfolio-view-project{:href => "#"} View Project
+                %img.img-responsive{:alt => "", :height => "260", :src => "img/portfolio-li3.jpg", :width => "348"}/
+          %li.portfolio-categories-list.col-md-4.col-sm-6.col-xs-12.text-center
+            .portfolio-categories-wrap
+              .portfolio-categories-wrap-item
+                .portfolio-list-hover.text-center
+                  %p.portfolio-project-title Project Title
+                  %a.portfolio-view-project{:href => "#"} View Project
+                %img.img-responsive{:alt => "", :height => "260", :src => "img/portfolio-li4.jpg", :width => "348"}/
+          %li.portfolio-categories-list.col-md-4.col-sm-6.col-xs-12.text-center
+            .portfolio-categories-wrap
+              .portfolio-categories-wrap-item
+                .portfolio-list-hover.text-center
+                  %p.portfolio-project-title Project Title
+                  %a.portfolio-view-project{:href => "#"} View Project
+                %img.img-responsive{:alt => "", :height => "260", :src => "img/portfolio-li5.jpg", :width => "348"}/
+          %li.portfolio-categories-list.col-md-4.col-sm-6.col-xs-12.text-center
+            .portfolio-categories-wrap
+              .portfolio-categories-wrap-item
+                .portfolio-list-hover.text-center
+                  %p.portfolio-project-title Project Title
+                  %a.portfolio-view-project{:href => "#"} View Project
+                %img.img-responsive{:alt => "", :height => "260", :src => "img/portfolio-li6.jpg", :width => "348"}/
+    %section.team
+      %h2.team-title Team
+      %ul.team-members.container.text-center
+        %li.team-members-list.text-center
+          %img{:alt => "", :height => "220", :src => "img/team-man1.png", :width => "220"}/
+          %h3 Cosmo Kramer
+          %p
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+            sollicitudin, lorem quis bibendum auctor,
+          %a{:href => "https://twitter.com/_cosmokramer_", :target => "_blank"}
+            %img.twit{:alt => "", :height => "58", :src => "img/twit.png", :width => "59"}/
+          %a{:href => "#"}
+            %img.instagram{:alt => "", :height => "58", :src => "img/inst.png", :width => "59"}/
+        %li.team-members-list.text-center
+          %img{:alt => "", :height => "219", :src => "img/team-man2.png", :width => "219"}/
+          %h3 George Constanza
+          %p
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+            sollicitudin, lorem quis bibendum auctor,
+          %a{:href => "https://twitter.com/costanzaquotes", :target => "_blank"}
+            %img.twit{:alt => "", :height => "58", :src => "img/twit.png", :width => "59"}/
+    %section.contact
+      .container
+        %h2.contact-title Contact
+        %p.contact-content.text-center Please contact us and we can discuss work!
+        %form.contact-form.col-md-4.col-md-offset-3{:action => "#", :method => "post"}
+          .form-group
+            %input.name{:placeholder => "Name", :type => "text", required:""}/
+          .form-group
+            %input.email{:placeholder => "Email", :type => "email"}/
+          .form-group.comments-cont
+            %textarea.comments{:cols => "15", :name => "message", :placeholder => "Message", :rows => "6"}
+          %input.send-form.text-center.btn.btn-success{:type => "submit", :value => "Submit"}/
+        %aside.our-contact.col-md-3.col-md-offset-1
+          %ul
+            %li
+              %p.our-contact-title Address
+              %p
+                129 West 81st Street
+                .block
+                  New York, NY 10024
+            %li
+              %p.our-contact-title Email
+              %p giddyup@kramer.com
+            %li
+              %p.our-contact-title Phone
+              %p +1 212-532-1256
+  %footer.footer
+    .container
+      .footer-logo.pull-left.col-md-offset-1
+        %a{:href => "index.html"}
+          %img{:alt => "", :height => "52", :src => "img/logo.png", :width => "140"}/
+      %address.contact-details.pull-left.col-md-offset-1
+        .contact-details-list
+          %p
+            129 West 81st Street
+          %span.block
+            New York, NY 10024
+        .contact-details-list
+          %p
+            giddyup@kramer.com
+          %p
+            +1 212-532-1256
+        .social-button
+          %a{:href => ""}
+            %img{:alt => "", :height => "58", :src => "img/twit.png", :width => "59"}/
+          %a{:href => ""}
+            %img{:alt => "", :height => "58", :src => "img/fb.png", :width => "59"}/
+          %a{:href => ""}
+            %img{:alt => "", :height => "58", :src => "img/inst.png", :width => "59"}/
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
+    / Include all compiled plugins (below), or include individual files as needed
+    %script{:src => "js/bootstrap.min.js"}
+    %script{src:"js/bg.js", type:"text/javascript"}

@@ -1,0 +1,315 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a:focus,
+button:focus {
+  ouline: none;
+}
+body {
+  font: 14px "Droid Sans", sans-serif;
+}
+section {
+  padding: 125px 0 100px;
+}
+section h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+.block {
+  display: block;
+}
+.welcome-section {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+/*background url("../img/welcome-bg.jpg") no-repeat*/
+/*-webkit-background-size cover*/
+/*-moz-background-size cover*/
+/*-o-background-size cover*/
+/*background-size cover*/
+}
+.welcome-section h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+}
+.welcome-section .explore {
+  position: relative;
+  display: inline-block;
+  padding: 80px 0 0;
+  font-size: 27px;
+  color: #fff;
+}
+.welcome-section .explore:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 0 0 0 -30px;
+  background: url("../img/explore-arrow.png") no-repeat;
+}
+.welcome-section .jumbotron {
+  background: none;
+}
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+}
+.navbar-inverse {
+  background: none;
+}
+.navbar-toggle {
+  border: none;
+}
+#navbar {
+  -webkit-box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.nav {
+  float: right;
+}
+.nav a {
+  display: block;
+  font-size: 22px;
+  line-height: 52px;
+  color: #fff;
+}
+.about {
+  background: #34495e;
+}
+.about h2 {
+  margin: 0 0 60px;
+  color: #fff;
+}
+.about li {
+  color: #fff;
+}
+.about li .description-wrap:before {
+  content: "";
+  display: block;
+  width: 153px;
+  height: 152px;
+  margin: 0 auto 30px;
+  background: url("../img/about-sprite.png") no-repeat;
+}
+.about li h3 {
+  font-size: 26px;
+}
+.about li p {
+  font-size: 20px;
+}
+.about li.service .description-wrap:before {
+  background-position: 0 0;
+}
+.about li.retina .description-wrap:before {
+  background-position: -163px 0;
+}
+.about li.support .description-wrap:before {
+  background-position: -326px 0;
+}
+.about-description {
+  font-size: 24px;
+  color: #fff;
+}
+.portfolio {
+  position: relative;
+  padding: 140px 0 110px 0;
+}
+.portfolio-title {
+  color: #2c3e50;
+}
+.portfolio-nav {
+  color: #2c3e50;
+  margin: 30px 0 50px 0;
+}
+.portfolio-nav .portfolio-nav-list {
+  padding: 0 30px;
+}
+.portfolio-nav-list a {
+  font: 16px 'Droid Sans', sans-serif;
+  text-decoration: none;
+  color: #2c3e50;
+}
+.active {
+  background: #2ecc71;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  border-radius: 17px;
+  font: 16px 'Droid Sans', sans-serif;
+  color: #fff;
+}
+.active a {
+  color: #fff;
+}
+.portfolio-categories-list {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.portfolio-categories-list img {
+  width: 100%;
+  overflow: hidden;
+}
+.portfolio-categories-wrap {
+  border: 1px solid #808080;
+  padding: 8px;
+  overflow: hidden;
+}
+.portfolio-categories-wrap-item {
+  position: relative;
+}
+.portfolio-list-hover {
+  display: none;
+  position: absolute;
+  padding: 30% 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(52,73,94,0.95);
+}
+.portfolio-categories-wrap:hover .portfolio-list-hover {
+  display: block;
+}
+.portfolio-project-title {
+  font: 24px 'droid sans', sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+.portfolio-view-project {
+  text-decoration: none;
+  font: 12px 'droid serif', sans-serif;
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+.team {
+  position: relative;
+  background: #2980b9;
+  color: #fff;
+  padding: 110px 0;
+}
+.team-members-list {
+  font: 14px 'droid serif', sans-serif;
+  width: 300px;
+  margin-left: 90px;
+}
+.team-members-list:first-child {
+  margin: 0 auto;
+}
+.team-title {
+  margin-bottom: 80px;
+}
+.team-members-list p {
+  display: inline-block;
+  padding-bottom: 50px;
+}
+.team-members-list h3 {
+  font: 18px 'droid sans', sans-serif;
+  font-weight: bold;
+}
+.instagram {
+  margin-left: 20px;
+}
+.contact-title,
+.contact-content {
+  color: #2c3e50;
+  font-weight: bold;
+}
+.contact-content {
+  font: 26px 'droid sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.name,
+.email,
+.comments {
+  border: none;
+  border-bottom: 1px solid #2ecc71;
+  width: 100%;
+  line-height: 40px;
+}
+.name::-webkit-input-placeholder,
+.email::-webkit-input-placeholder,
+.comments::-webkit-input-placeholder {
+  font: 26px 'droid serif', sans-serif;
+  color: #2c3e50;
+}
+.name::-moz-placeholder,
+.email::-moz-placeholder,
+.comments::-moz-placeholder {
+  color: #2c3e50;
+  font: 26px 'droid serif', sans-serif;
+}
+.comments::-webkit-input-placeholder {
+  padding-top: 50px;
+}
+.comments::-moz-placeholder {
+  padding-top: 50px;
+}
+.contact-form {
+  display: inline-block;
+  overflow: hidden;
+}
+.contact .our-contact-title {
+  margin-top: 15px;
+  font: 16px 'droid sans', sans-serif;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.contact .our-contact-title:first-child {
+  margin: 0;
+}
+.our-contact {
+  font: 20px 'droid sans', sans-serif;
+  color: #2c3e50;
+}
+.send-form {
+  width: 130px;
+  font: 14px 'droid serif', sans-serif;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  border-radius: 17px;
+}
+.footer {
+  background-color: #2c3e50;
+  overflow: hidden;
+}
+.contact-details {
+  clear: both;
+  margin: 40px 0 70px 0;
+  display: block;
+  overflow: hidden;
+}
+.contact-details-list {
+  font: 16px 'droid sans', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+}
+.social-button a {
+  display: inline-block;
+  margin-right: 20px;
+}
+.social-button a img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.social-button:last-child {
+  display: inline-block;
+  margin-right: 0;
+}
