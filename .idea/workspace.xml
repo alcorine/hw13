@@ -25,11 +25,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.haml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.4770017" vertical-offset="1964" max-vertical-offset="3587">
-                  <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="32" />
+                <state vertical-scroll-proportion="0.50596255" vertical-offset="1964" max-vertical-offset="3587">
+                  <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -38,8 +38,8 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.9615384" vertical-offset="17" max-vertical-offset="5355">
-                  <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+                <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="5355">
+                  <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -49,7 +49,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.styl" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.styl" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/main.styl">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.44535074" vertical-offset="3875" max-vertical-offset="5576">
@@ -104,10 +104,10 @@
         <option value="$PROJECT_DIR$/style/main.css" />
         <option value="$PROJECT_DIR$/style/mixin.styl" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.haml" />
         <option value="$PROJECT_DIR$/style/media.css" />
         <option value="$PROJECT_DIR$/style/reset.styl" />
         <option value="$PROJECT_DIR$/style/main.styl" />
+        <option value="$PROJECT_DIR$/index.haml" />
       </list>
     </option>
   </component>
@@ -243,7 +243,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -453,16 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="17" max-vertical-offset="5355">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4770017" vertical-offset="1964" max-vertical-offset="3587">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="32" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="5355">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -495,6 +487,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44535074" vertical-offset="3875" max-vertical-offset="5576">
           <caret line="244" column="37" selection-start-line="244" selection-start-column="37" selection-end-line="244" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50596255" vertical-offset="1964" max-vertical-offset="3587">
+          <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
           <folding />
         </state>
       </provider>
