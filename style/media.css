@@ -180,6 +180,16 @@
         padding-left: 15px;
     }
 
+    .nav {
+        float: none;
+    }
+
+    .nav li {
+        float: none;
+        margin: 0;
+        display: block;
+    }
+
     .about-description {
         width: 450px;
         margin: 0 auto 60px;
@@ -259,6 +269,8 @@
     }
 
     .nav li {
+        float: none;
+        margin: 0;
         display: block;
     }
 

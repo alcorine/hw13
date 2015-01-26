@@ -4,8 +4,10 @@ ul {
   list-style: none;
 }
 a:focus,
-button:focus {
-  ouline: none;
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
 }
 body {
   font: 14px "Droid Sans", sans-serif;
@@ -241,6 +243,7 @@ section h2 {
   border-bottom: 1px solid #2ecc71;
   width: 100%;
   line-height: 40px;
+  font: 26px 'droid serif', sans-serif;
 }
 .name::-webkit-input-placeholder,
 .email::-webkit-input-placeholder,

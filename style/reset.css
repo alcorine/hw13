@@ -4,6 +4,8 @@ ul {
   list-style: none;
 }
 a:focus,
-button:focus {
-  ouline: none;
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
 }
