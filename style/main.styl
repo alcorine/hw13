@@ -33,7 +33,7 @@ section
     position relative
     display inline-block
     padding 80px 0 0
-    font-size 27px
+    font 27px "droid serif", sans-serif
     color #fff
     &:before
       content ""
@@ -44,13 +44,15 @@ section
       height 60px
       margin 0 0 0 -30px
       background url("../img/explore-arrow.png") no-repeat
+    &:active
+      box-shadow(none)
   .jumbotron
     background none
 #bg
   position absolute
   top 0
   left 0
-  width 100%
+  min-width 100%
   height 100%
   z-index -3
 
@@ -66,11 +68,14 @@ section
 
 .nav
   float right
-  a
-    display block
-    font-size 22px
-    line-height 52px
-    color #fff
+  li
+    a
+      display block
+      font-size 22px
+      line-height 52px
+      color #fff
+      &:hover
+        color #000
 
 .about
   background #34495e
@@ -89,8 +94,9 @@ section
         background url("../img/about-sprite.png") no-repeat
     h3
       font-size 26px
+      font-weight bold
     p
-      font-size 20px
+      font 20px "droid serif", sans-serif
     &.service
       .description-wrap
         &:before
@@ -105,7 +111,7 @@ section
           background-position -326px 0
 
 .about-description
-  font-size 24px
+  font 24px "droid serif", sans-serif
   color #fff
 
 .portfolio
@@ -126,9 +132,10 @@ section
 
 .portfolio-nav-list
   a
-    font 16px 'Droid Sans', sans-serif
+    font 30px 'Droid Sans', sans-serif
     text-decoration none
     color #2c3e50
+    line-height 45px
 
 
 .active
@@ -165,7 +172,7 @@ section
 .portfolio-list-hover
   display none
   position absolute
-  padding 30% 0
+  padding 25% 0
   width 100%
   height:100%
   background-color rgba(52, 73, 94, 0.95)
@@ -185,13 +192,17 @@ section
 
 .portfolio-view-project
   text-decoration none
-  font 12px 'droid serif', sans-serif
+  font 14px 'droid serif', sans-serif
   color #fff
-  padding 5px
+  margin-top 20px
+  display inline-block
+  line-height 30px
+  width 130px
   border 1px solid #fff
-  -webkit-border-radius 14px
-  -moz-border-radius 14px
-  border-radius 14px
+  border-radius(14px)
+  &:hover
+    color #fff
+    background #2ecc71
 
 .team
   position relative
@@ -201,11 +212,12 @@ section
 
 
 .team-members-list
-  font 14px 'droid serif', sans-serif
+  font 20px 'droid serif', sans-serif
   width 300px
   margin-left 90px
   &:first-child
     margin 0 auto
+
 
 
 .team-title
@@ -219,12 +231,31 @@ section
 
 
 .team-members-list h3
-  font 18px 'droid sans', sans-serif
+  font 26px 'droid sans', sans-serif
   font-weight: bold
 
+.twit
+  background url("../img/twit.png")
+  display inline-block
+  width 59px
+  height 58px
+  text-indent -99999px
 
 .instagram
   margin-left 20px
+  background url("../img/inst.png")
+  display inline-block
+  width 59px
+  height 58px
+  text-indent -99999px
+
+.fb
+  margin-left 20px
+  background url("../img/fb.png")
+  display inline-block
+  width 59px
+  height 58px
+  text-indent -99999px
 
 .contact-title, .contact-content
   color #2c3e50
@@ -251,11 +282,7 @@ section
       font 26px 'droid serif', sans-serif
 
 .comments
-  &::-webkit-input-placeholder
-    padding-top 50px
-  &::-moz-placeholder
-    padding-top 50px
-
+  margin-top 65px
 
 .contact-form
   display inline-block
@@ -301,20 +328,7 @@ section
   font 16px 'droid sans', sans-serif
   font-weight bold
   color #fff
-  display inline-block
-
-
-.social-button
-  a
-    display inline-block
-    margin-right 20px
-
-.social-button
-  a
-    img
-      display block
-      width 100%
-      height auto
+  float left
 
 .social-button
   &:last-child

@@ -6,6 +6,7 @@
     %meta{content:"width=device-width, initial-scale=1", :name => "viewport"}/
     %title Kramer
     %link{href:"http://fonts.googleapis.com/css?family=Droid+Sans:400,700", rel:"stylesheet", type:"text/css"}/
+    %link{href:'http://fonts.googleapis.com/css?family=Droid+Serif', rel:'stylesheet', type:'text/css'}/
     / Bootstrap
     %link{href:"css/bootstrap.min.css", rel:"stylesheet"}/
     %link{href:"style/main.css", rel:"stylesheet"}/
@@ -138,18 +139,15 @@
           %p
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             sollicitudin, lorem quis bibendum auctor,
-          %a{:href => "https://twitter.com/_cosmokramer_", :target => "_blank"}
-            %img.twit{:alt => "", :height => "58", :src => "img/twit.png", :width => "59"}/
-          %a{:href => "#"}
-            %img.instagram{:alt => "", :height => "58", :src => "img/inst.png", :width => "59"}/
+          %a.twit{:href => "https://twitter.com/_cosmokramer_", :target => "_blank"} Twitter
+          %a.instagram{:href => "#"} Instagram
         %li.team-members-list.text-center
           %img{:alt => "", :height => "219", :src => "img/team-man2.png", :width => "219"}/
           %h3 George Constanza
           %p
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             sollicitudin, lorem quis bibendum auctor,
-          %a{:href => "https://twitter.com/costanzaquotes", :target => "_blank"}
-            %img.twit{:alt => "", :height => "58", :src => "img/twit.png", :width => "59"}/
+          %a.twit{:href => "https://twitter.com/costanzaquotes", :target => "_blank"} Twitter
     %section.contact
       .container
         %h2.contact-title Contact
@@ -162,13 +160,13 @@
           .form-group.comments-cont
             %textarea.comments{:cols => "15", :name => "message", :placeholder => "Message", :rows => "6"}
           %input.send-form.text-center.btn.btn-success{:type => "submit", :value => "Submit"}/
-        %aside.our-contact.col-md-3.col-md-offset-1
+        %address.our-contact.col-md-3.col-md-offset-1
           %ul
             %li
               %p.our-contact-title Address
               %p
                 129 West 81st Street
-                .block
+                %span.block
                   New York, NY 10024
             %li
               %p.our-contact-title Email
@@ -192,13 +190,13 @@
             giddyup@kramer.com
           %p
             +1 212-532-1256
-        .social-button
-          %a{:href => ""}
-            %img{:alt => "", :height => "58", :src => "img/twit.png", :width => "59"}/
-          %a{:href => ""}
-            %img{:alt => "", :height => "58", :src => "img/fb.png", :width => "59"}/
-          %a{:href => ""}
-            %img{:alt => "", :height => "58", :src => "img/inst.png", :width => "59"}/
+        %ul.social-button.list-inline
+          %li
+            %a.twit{:href => ""}Twitter
+          %li
+            %a.fb{:href => ""}Facebook
+          %li
+            %a.instagram{:href => ""}Instagram
     / jQuery (necessary for Bootstrap's JavaScript plugins)
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
     / Include all compiled plugins (below), or include individual files as needed
